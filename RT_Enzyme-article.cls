@@ -65,7 +65,7 @@
 %----------
 %习题环境
 \theoremstyle{definition} 
-\newtheorem{exs}{习题}
+\newtheorem{exs}{\bf{习题}}
 
 %解答环境
 \ifx\proof\undefined\
@@ -81,4 +81,4 @@
 }
 \fi
 
-\renewcommand{\proofname}{\it{证明}}
+\renewcommand{\proofname}{\bf{解}}
