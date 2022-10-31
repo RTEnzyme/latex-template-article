@@ -6,6 +6,8 @@
 \RequirePackage{amssymb,amsfonts,amsmath,amsthm,latexsym}
 
 \RequirePackage{xeCJK}
+\RequirePackage{listings}
+
 
 \setCJKmainfont[BoldFont={SimHei},ItalicFont={KaiTi}]{SimSun}
 \setCJKsansfont{SimHei}
@@ -82,3 +84,8 @@
 \fi
 
 \renewcommand{\proofname}{\bf{解}}
+
+
+% 用来设置附录中代码的样式
+\RequirePackage{graphicx}
+\RequirePackage{pythonhighlight}
